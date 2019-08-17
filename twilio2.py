@@ -3,9 +3,7 @@ __author__ = 'Johan'
 
 from twilio.rest import TwilioRestClient
 
-# put your own credentials here
-ACCOUNT_SID = "ACeb16b14b52886960c4b521d48547c17c"
-AUTH_TOKEN = "09f114f92bfa404cefc50d319a0d8d9a"
+
 
 client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN)
 message = raw_input("Please enter your message: ")
